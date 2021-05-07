@@ -1,0 +1,130 @@
+:root {
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+                            /*Components*/
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.logo-first-word {
+  color: var(--accent-color);
+}
+
+.img-description {
+font-size: 16px;
+line-height: 1.18;
+color: #757575;
+}
+
+                              /*Header*/
+
+
+}
+.menu-link {
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+
+                      /*Hero section*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.modal-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+                        /*Benefits*/
+
+.benefits-title {
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-description {
+  line-height: 1.71;
+  color: #757575;
+}
+
+
+
+
+                      /*portfolio styles*/
+.nav-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+background-color: #F5F4FA;
+cursor: pointer;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+
