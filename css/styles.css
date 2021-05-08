@@ -170,3 +170,10 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-color);
 }
+
+.portfolio-titles {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
