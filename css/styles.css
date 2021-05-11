@@ -7,6 +7,7 @@
   --sections-background-color: #f5f4fa;
   --logo-link-clr: #000000;
   --footer-text-clr: rgba(255, 255, 255, 0.6);
+  --mdl-btn-clr-hvr: #188ce8;
 }
 
 body {
@@ -60,7 +61,7 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-
+.current,
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
@@ -70,7 +71,6 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  outline: none;
   color: var(--description-text-color);
 }
 
@@ -101,13 +101,13 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-color);
-  background-color: var(--hero-title-background-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: var(--accent-color);
+  background-color: var(--mdl-btn-clr-hvr);
   color: var(--primary-color);
 }
 
