@@ -29,6 +29,7 @@ body {
 /*Components*/
 
 .logo-link {
+  padding-left: 215px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -46,16 +47,23 @@ body {
   color: var(--description-text-color);
 }
 
-.menu-item {
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+/*Header*/
+.header-navigation {
+  display: flex;
+  align-items: center;
 }
 
-/*Header*/
+.menu {
+  display: flex;
+  margin-left: 93px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
 
 .menu-link {
+  display: block;
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: 0.02em;
@@ -65,6 +73,12 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
+}
+
+.contacts-nav {
+  display: flex;
+  margin: auto;
+  padding-left: 215px;
 }
 
 .contacts {
@@ -131,8 +145,8 @@ body {
 
 /*Footer*/
 
-.footer-section {
-  background-color: var(--hero-title-background-color);
+.footer-list {
+  padding: 0;
 }
 
 .footer-link {
@@ -153,6 +167,11 @@ body {
   font-style: normal;
   line-height: 1.71;
   color: var(--footer-text-clr);
+}
+
+.footer-section {
+  padding-left: 215px;
+  background-color: var(--hero-title-background-color);
 }
 
 /*portfolio styles*/
